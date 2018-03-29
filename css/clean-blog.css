@@ -74,6 +74,19 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #0085A1; }
 
+#logo {
+  position: ;
+  left: 0px;
+  height: 78px;
+  }
+  @media only screen and (min-width: 992px) {
+    #logo {
+     position: absolute;
+     left: 40px;
+     height: 78px;
+    }
+  }
+
 #mainNav {
   position: absolute;
   border-bottom: 1px solid #eeeeee;
@@ -147,7 +160,7 @@ body {
 header.masthead {
   margin-bottom: 50px;
   background: no-repeat center center;
-  background-color: #777777;
+  background-color: #e6e600;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;

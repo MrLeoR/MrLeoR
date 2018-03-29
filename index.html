@@ -8,7 +8,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>RR Chaveiro</title>
+	<title>RR Afiações & Chaveiro</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,8 @@
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
 		<div class="container">
-			<a class="navbar-brand" href="index.html">RR Chaveiro</a>
+			<img src="./img/chaveiro.png" id="logo" />
+			<a class="navbar-brand" href="index.html">RR Afiações & Chaveiro</a>
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 				Menu
 				<i class="fa fa-bars"></i>
@@ -36,7 +37,7 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contatos</a>
+						<a class="nav-link" data-toggle="modal" href="" data-target="#myModal">Contatos</a>
 					</li>
 				</ul>
 			</div>
@@ -49,8 +50,8 @@
 			<div class="row">
 				<div class="col-lg-8 col-md-10 mx-auto">
 					<div class="site-heading">
+						
 						<!-- Carousel -->
-
 						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 							<ol class="carousel-indicators">
 								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -77,8 +78,37 @@
 								<span class="sr-only">Next</span>
 							</a>
 						</div>
+
 					</div>
 				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1 class="text-center">Serviços</h1>
+				</div>
+				<a class="btn col-lg-2 col-md-6">
+					Abertura: Casa, Carro
+				</a>
+				<a class="btn col-lg-2 col-md-6">
+					Troca de Miolo
+				</a>
+				<a class="btn col-lg-4 col-md-6">
+					Instalações de Fechaduras e Olho Mágico
+				</a>
+				<a class="btn col-lg-2 col-md-6">
+					Controle de Portões
+				</a>
+				<a class="btn col-lg-2 col-md-6">
+					Chaves Codificadas
+				</a>
+				<a class="btn col-lg-2 col-md-6">
+					Afiações
+				</a>
+				<a class="btn col-lg-2 col-md-6">
+					Carimbos
+				</a>
 			</div>
 		</div>
 	</header>
@@ -106,12 +136,17 @@
 						<h3 class="post-subtitle">
 							&nbsp;Cópias de chaves
 						</h3>
-						<p> &nbsp;&nbsp;&nbsp;Fazemos cópia de qualquer tipo de chave para você a qualquer hora.</p>
+						<p> &nbsp;&nbsp;&nbsp;Fazemos cópia de qualquer tipo de chave para você a qualquer hora. Inclusive chaves CANIVETES.</p>
 
 						<h3 class="post-subtitle">
 							&nbsp;Cofres
 						</h3>
 						<p> &nbsp;&nbsp;&nbsp;Abertura de cofres com total segurança e profissionalismo.</p>
+
+						<h3 class="post-subtitle">
+							&nbsp;Afiações
+						</h3>
+						<p> &nbsp;&nbsp;&nbsp;Afiações em Geral.</p>
 					</a>
 				</div>
 				<hr>
@@ -130,10 +165,6 @@
 	</div>
 	<hr>
 
-	<!-- Localização -->
-	<div class="text-center">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234276.33462250017!2d-46.63315711029331!3d-23.43997744699573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef56e53edff21%3A0xa97c7233dd47e9b4!2sUber+-+Guarulhos+-+Centro+de+Atendimento+e+Suporte+ao+Motorista!5e0!3m2!1spt-BR!2sbr!4v1513382440470" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-	</div>
 	<!-- Footer -->
 	<footer>
 		<div class="container">
@@ -141,19 +172,35 @@
 				<div class="col-lg-8 col-md-10 mx-auto">
 					<ul class="list-inline text-center">
 						<li class="list-inline-item">
-							<a href="#">
+							<!-- <a href="#">
 								<span class="fa-stack fa-lg">
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
 								</span>
-							</a>
+							</a> -->
 						</li>
 					</ul>
-					<p class="copyright text-muted">Copyright &copy; RR Chaveiros 2017</p>
+					<p class="copyright text-muted">Copyright &copy; RR Chaveiros 2018</p>
 				</div>
 			</div>
 		</div>
 	</footer>
+
+	<div id="myModal" class="modal fade" role="dialog">
+  		<div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		      </div>
+		      <div class="modal-body">
+		        <p><i class="fa fa-whatsapp"></i> 96462-5787</p>
+		      </div>
+		    </div>
+
+  		</div>
+	</div>
 
 	<!-- Bootstrap core JavaScript -->
 	<script src="vendor/jquery/jquery.min.js"></script>
